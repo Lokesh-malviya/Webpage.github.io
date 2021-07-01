@@ -171,28 +171,28 @@ section{
   }
   
   .swiper-slide:nth-child(1) .slide-img {
-    background-image: url("D:/moon/planets-website-images/mercury.png");
+    background-image: url("mercury.png");
   }
   .swiper-slide:nth-child(2) .slide-img {
-    background-image: url("D:/moon/planets-website-images/venus.png");
+    background-image: url("venus.png");
   }
   .swiper-slide:nth-child(3) .slide-img {
-    background-image: url("D:/moon/planets-website-images/earth1.png");
+    background-image: url("earth1.png");
   }
   .swiper-slide:nth-child(4) .slide-img {
-    background-image: url("D:/moon/planets-website-images/mars.png");
+    background-image: url("mars.png");
   }
   .swiper-slide:nth-child(5) .slide-img {
-    background-image: url("D:/moon/planets-website-images/jupiter.png");
+    background-image: url("jupiter.png");
   }
   .swiper-slide:nth-child(6) .slide-img {
-    background-image: url("D:/moon/planets-website-images/saturn.png");
+    background-image: url("saturn.png");
   }
   .swiper-slide:nth-child(7) .slide-img {
-    background-image: url("D:/moon/planets-website-images/uranus.png");
+    background-image: url("uranus.png");
   }
   .swiper-slide:nth-child(8) .slide-img {
-    background-image: url("D:/moon/planets-website-images/neptune.png");
+    background-image: url("neptune.png");
   }
   
   .slide-img {
