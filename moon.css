@@ -1,0 +1,173 @@
+body{
+    background-image: linear-gradient( #1c0522 , #7597de );
+   min-height: 100vh;
+   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+header{
+    position: absolute;
+    top : 0;
+    left: 0;
+    width : 90%;
+    padding : 30px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo{
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: 'popines' , sans-serif;
+}
+.search-box:hover > .search-txt{
+    width : 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+  background: #fff;
+}
+
+.search-box{
+    height : 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 40px;
+    position: absolute;
+    left: 65%;
+    top : 33.5%;
+    transform: translate(-100%,0);
+}
+.search-btn{
+  
+    width: 20px;
+    height: 20px;
+    float : right;
+    transition: 0.4s;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 1px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width : 0px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 10px 22px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background : #fff;
+    color : #2b1055;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height : 100vh;
+    padding : 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    position : absolute;
+    top : 7%;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+section img#moon{
+ mix-blend-mode: screen;
+ animation: moon 100s linear infinite;
+ 
+
+}
+#mountains_frount{
+    z-index: 10;
+}
+#text{
+ 
+ font-family: 'popines' , sans-serif;
+ color: #fff;
+ white-space: nowrap;
+ font-size: 7.2vw;
+ z-index: 9;
+  
+ 
+}
+.team{
+    position: absolute;
+    right: 2%;
+    top : 38%;
+    animation: dream 50s linear infinite;
+}
+#btn{
+  text-decoration: none;
+  display : inline-block;
+  padding: 10px 25px;
+  border-radius: 40px ;
+  color: #2b1055;
+  background: #fff;
+  font-size: 2em;
+  position: absolute;
+  top : 60%;
+  left : 50%;
+  z-index: 9;
+  transform: translateY(100px);
+  font-family: 'popines' , sans-serif;
+}
+
+.sec{
+    position : relative;
+    padding : 100px;
+    background: #1c0522;
+}
+.sec h1{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'popines' , sans-serif;
+}
+.sec ul{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'popines' , sans-serif;
+}
+
+@keyframes dream {
+    100%{transform: translatex(-2000px)}
+   }
+@keyframes moon {
+    100%{transform: rotate(360deg);}
+}

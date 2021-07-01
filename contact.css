@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+}
+.box{
+    width : 65%;
+    height : 65%;
+    background-color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px 3px #888888 inset;
+}
+.box1{
+  position: absolute;
+  right: 6%;
+  top: 18%;
+  width: 40%;
+  height: 30%;
+  background: rgb(255,250,250);
+  box-shadow: 1px 1px 3px 3px #888888 inset;
+
+  
+}
+.box2{
+    position: absolute;
+    right: 6%;
+    top: 55%;
+    width: 40%;
+    height: 30%;
+    background: rgb(255,250,250);
+    box-shadow: 1px 1px 3px 3px #888888 inset;
+  }
+.phone{
+  width : 15%;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  }
+.call{
+    width :100%;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.number{
+   width : 10%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  font-size: 25px;
+  color: skyblue;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .chat{
+    width : 17%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    }
+    .button{
+        width : 50%;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        padding: 8px 27px;
+        border: 1px;
+        background :skyblue;
+        font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    box-shadow: 1px 1px 3px 3px #888888 ;
+        }
+    .box0{
+        position: absolute;
+        top: 17%;
+        left: 8%;
+        width: 100%;
+        height: 100%;
+
+    }
+    .photo{
+        width: 40%;
+    }
+    

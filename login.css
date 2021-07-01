@@ -1,0 +1,99 @@
+body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    margin: 0%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    padding: 0%;
+    overflow: hidden;
+}
+@font-face{
+    font-family : "Alphacentauri";
+    src :url("D:/moon/planets-website-images/Alphacentauri.ttf")
+}
+
+.login a{
+    font-size: 60px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Alphacentauri";
+    
+}
+.box{
+    width : 65%;
+    height : 70%;
+    background-color: #fff;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    box-shadow: 1px 1px 3px 3px #888888 inset;
+    overflow: hidden;
+}
+.LOG-IN{
+    
+    position: absolute;
+    top: 12%;
+    left : 12%;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.box-size{
+    width : 29%;
+    height : 25%;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+    
+}
+.use{
+ font-size: 20px;
+ color: black;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    width :300px;
+    padding: 15px 34px;
+    border: 0.1px solid black;
+    background-color : rgb(255,250,250);
+
+
+}
+#man{
+    width :300px;
+    padding: 15px 34px;
+    background-color : #1338be;
+    border: 0.1px solid black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.image{
+    width : 56%;
+    height: 90%;
+    box-shadow: 1px 1px 3px 3px #888888 outset;
+    position: absolute;
+    left : 42%;
+    top : 5%;
+    background-color: rgb(255,250,250);
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.drem{
+    position: absolute; 
+    top:10%; 
+    z-index: 1;
+    animation : move 15s linear infinite;
+}
+@keyframes move {
+  100%{transform: rotatey(360deg) ;}  
+}
