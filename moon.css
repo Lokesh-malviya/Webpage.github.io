@@ -4,6 +4,9 @@ body{
    overflow-x: hidden;
   scroll-behavior: smooth;
 }
+@-ms-viewport{
+    width: device-width;
+  }
 
 header{
     position: absolute;
